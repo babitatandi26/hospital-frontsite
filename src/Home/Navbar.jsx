@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import {NavLink} from "react-router-dom";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../node_modules/bootstrap/dist/js/bootstrap.min.js";
 import logo from "../hospitalImages/logo2.png";
@@ -11,7 +12,6 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
@@ -36,44 +36,44 @@ const NavBar = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="navitems" navbar>
             <NavItem>
-              <NavLink  href="/" style={{color:"#118574"}}>Home</NavLink>
+              <NavLink  style={{color:"#118574",textDecoration:"none"}}  className="links" to="/" style={{color:"#118574",textDecoration:"none"}}>Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink  href="/appointment">Appointments</NavLink>
+              <NavLink  style={{color:"gray",textDecoration:"none"}} className="links" to="/appointment">Appointments</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink  href="/events">Events</NavLink>
+              <NavLink  style={{color:"gray",textDecoration:"none"}} className="links" to="/events">Events</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
-               About Us
+              <NavLink  style={{color:"gray",textDecoration:"none"}} to=""> About Us</NavLink>
               </DropdownToggle>
               <DropdownMenu bottom>
                 <DropdownItem>
-                  <NavLink  href="/about-us">About Hospitals</NavLink>
+                  <NavLink style={{color:"gray",textDecoration:"none"}}  to="/about-us">About Hospitals</NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink  href="/vision-mission">Vision and Mission</NavLink>
+                  <NavLink  style={{color:"gray",textDecoration:"none"}} to="/vision-mission">Vision and Mission</NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink  href="/doctors">Meet our Doctors</NavLink>
+                  <NavLink  style={{color:"gray",textDecoration:"none"}} to="/doctors">Meet our Doctors</NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink  href="/faq">FAQ's</NavLink>
+                  <NavLink  style={{color:"gray",textDecoration:"none"}} to="/faq">FAQ's</NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                 <NavLink  href="/departments">Departments</NavLink>
+                 <NavLink  style={{color:"gray",textDecoration:"none"}} to="/departments">Departments</NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink  href="/testimonials">Testimonials</NavLink>
+                  <NavLink  style={{color:"gray",textDecoration:"none"}} to="/testimonials">Testimonials</NavLink>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink  href="/gallery">Gallery</NavLink>
+              <NavLink  style={{color:"gray",textDecoration:"none"}} className="links" to="/gallery">Gallery</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink  href="/contact-us">Contact Us</NavLink>
+              <NavLink  style={{color:"gray",textDecoration:"none"}} className="links" to="/contact-us">Contact Us</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
