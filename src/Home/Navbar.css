@@ -1,0 +1,16 @@
+.nav{
+    box-shadow: 5px 10px 15px -5px rgba(0,0,0,0.3);
+    
+}
+NavbarToggler{
+    border:"none";
+    outline:"none"
+}
+@media only screen and (max-device-width:768px){
+    .navitems{
+        margin-left: 15px;
+    }
+    .navBar span{
+        margin-right: "0px";
+    }
+}
