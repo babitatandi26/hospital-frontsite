@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5bbc85309d7ea6cc78b226a683d83b7a",
+    "revision": "f8d401eab534ac2530843b7833c110dd",
     "url": "/hospital-frontsite/index.html"
   },
   {
-    "revision": "818bfc05b43ffab65304",
+    "revision": "2578d05857fa9d434272",
     "url": "/hospital-frontsite/static/css/2.ea6b7726.chunk.css"
   },
   {
-    "revision": "1924966a0604844a4047",
-    "url": "/hospital-frontsite/static/css/main.2e555c26.chunk.css"
+    "revision": "6eb2f1da1144d9ccd59e",
+    "url": "/hospital-frontsite/static/css/main.65f7f26a.chunk.css"
   },
   {
-    "revision": "818bfc05b43ffab65304",
-    "url": "/hospital-frontsite/static/js/2.dc2b95ad.chunk.js"
+    "revision": "2578d05857fa9d434272",
+    "url": "/hospital-frontsite/static/js/2.bd66c17e.chunk.js"
   },
   {
     "revision": "59b36dad69bc9e169a3b0e6df948f016",
-    "url": "/hospital-frontsite/static/js/2.dc2b95ad.chunk.js.LICENSE.txt"
+    "url": "/hospital-frontsite/static/js/2.bd66c17e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1924966a0604844a4047",
-    "url": "/hospital-frontsite/static/js/main.452a4fc6.chunk.js"
+    "revision": "6eb2f1da1144d9ccd59e",
+    "url": "/hospital-frontsite/static/js/main.6953cf42.chunk.js"
   },
   {
     "revision": "6be67d53e923e05d3592",

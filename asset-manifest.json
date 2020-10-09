@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/hospital-frontsite/static/css/main.2e555c26.chunk.css",
-    "main.js": "/hospital-frontsite/static/js/main.452a4fc6.chunk.js",
-    "main.js.map": "/hospital-frontsite/static/js/main.452a4fc6.chunk.js.map",
+    "main.css": "/hospital-frontsite/static/css/main.65f7f26a.chunk.css",
+    "main.js": "/hospital-frontsite/static/js/main.6953cf42.chunk.js",
+    "main.js.map": "/hospital-frontsite/static/js/main.6953cf42.chunk.js.map",
     "runtime-main.js": "/hospital-frontsite/static/js/runtime-main.a7f037e9.js",
     "runtime-main.js.map": "/hospital-frontsite/static/js/runtime-main.a7f037e9.js.map",
     "static/css/2.ea6b7726.chunk.css": "/hospital-frontsite/static/css/2.ea6b7726.chunk.css",
-    "static/js/2.dc2b95ad.chunk.js": "/hospital-frontsite/static/js/2.dc2b95ad.chunk.js",
-    "static/js/2.dc2b95ad.chunk.js.map": "/hospital-frontsite/static/js/2.dc2b95ad.chunk.js.map",
+    "static/js/2.bd66c17e.chunk.js": "/hospital-frontsite/static/js/2.bd66c17e.chunk.js",
+    "static/js/2.bd66c17e.chunk.js.map": "/hospital-frontsite/static/js/2.bd66c17e.chunk.js.map",
     "index.html": "/hospital-frontsite/index.html",
-    "precache-manifest.eb0ae5379cf38d597f19e1729eaf45ec.js": "/hospital-frontsite/precache-manifest.eb0ae5379cf38d597f19e1729eaf45ec.js",
+    "precache-manifest.6b15f33cb66743ebe3c4e1ae3a01c00d.js": "/hospital-frontsite/precache-manifest.6b15f33cb66743ebe3c4e1ae3a01c00d.js",
     "service-worker.js": "/hospital-frontsite/service-worker.js",
     "static/css/2.ea6b7726.chunk.css.map": "/hospital-frontsite/static/css/2.ea6b7726.chunk.css.map",
-    "static/css/main.2e555c26.chunk.css.map": "/hospital-frontsite/static/css/main.2e555c26.chunk.css.map",
-    "static/js/2.dc2b95ad.chunk.js.LICENSE.txt": "/hospital-frontsite/static/js/2.dc2b95ad.chunk.js.LICENSE.txt",
+    "static/css/main.65f7f26a.chunk.css.map": "/hospital-frontsite/static/css/main.65f7f26a.chunk.css.map",
+    "static/js/2.bd66c17e.chunk.js.LICENSE.txt": "/hospital-frontsite/static/js/2.bd66c17e.chunk.js.LICENSE.txt",
     "static/media/001.jpg": "/hospital-frontsite/static/media/001.f78fbc23.jpg",
     "static/media/002.jpg": "/hospital-frontsite/static/media/002.d97b0bcb.jpg",
     "static/media/003.jpg": "/hospital-frontsite/static/media/003.b9571eed.jpg",
@@ -42,8 +42,8 @@
   "entrypoints": [
     "static/js/runtime-main.a7f037e9.js",
     "static/css/2.ea6b7726.chunk.css",
-    "static/js/2.dc2b95ad.chunk.js",
-    "static/css/main.2e555c26.chunk.css",
-    "static/js/main.452a4fc6.chunk.js"
+    "static/js/2.bd66c17e.chunk.js",
+    "static/css/main.65f7f26a.chunk.css",
+    "static/js/main.6953cf42.chunk.js"
   ]
 }
