@@ -14,14 +14,14 @@ const Appointment = () => {
                 <div className="col-lg-2 col-md-2 col-0"></div>
                     <div className="col-lg-8 col-md-8 col-12">
                     <form className="form1">
-                        <div class="form-check">
+                        <div className="form-check">
                         <label for="" style={{marginLeft:"0px"}}>Patient Appointment</label><br/><br/>
-                        <label class="form-check-label" for="exampleRadios1">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" />
+                        <label className="form-check-label" for="exampleRadios1">
+                            <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" />
                                 New Patient
                             </label>
-                            <label class="form-check-label" for="exampleRadios2" style={{marginLeft:"40px"}}>
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked/>
+                            <label className="form-check-label" for="exampleRadios2" style={{marginLeft:"40px"}}>
+                            <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked/>
                                 Old Patient
                             </label>
                             </div><br/>
@@ -39,7 +39,7 @@ const Appointment = () => {
                         </div><br/>
                         <div className="form-group">
                                 <label for="">Doctor</label>
-                                <select class="form-control ">
+                                <select className="form-control ">
                                 <option>Sansa Gomez</option>
                                 <option>Amit Singh</option>
                                 <option>Daniel Dsouza</option>
@@ -47,7 +47,7 @@ const Appointment = () => {
                             </div><br/>
                             <div className="form-group"> 
                                 <label for="">Gender</label>
-                                <select class="form-control ">
+                                <select className="form-control ">
                                 <option>Male</option>
                                 <option>Female</option>
                             </select>
