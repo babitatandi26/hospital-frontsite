@@ -3,7 +3,7 @@
     
 }
 .navbar-expand-md .navbar-nav{
-    align-items: center;
+    align-items: center!important;
 }
 .links{
    margin-left:7px!important;
